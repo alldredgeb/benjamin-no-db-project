@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.below_header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.todoListMain {
+  background: lightgray;
+  width: 30%;
+}
+
+.newsfeed {
+  width: 70%;
+  font-family: monospace;
+}
+
+.h_box {
+  height: 100px;
+  background: darkgray;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+.to_do_header {
+  font-family: monospace;
+}
+
+.display_list {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
